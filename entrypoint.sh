@@ -2,6 +2,7 @@
 
 if [ $2 = 'mestre123' ]; then
     echo "Hello $1"
+    echo "$2"
 	time=$(date)
 	echo "::set-output name=time::$time"
 else
