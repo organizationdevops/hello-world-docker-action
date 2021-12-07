@@ -16,4 +16,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.who-to-greet }}
-    - ${{ inputs.pass-action-deploy }}
+    - ${{ inputs.senha-action-deploy }}
